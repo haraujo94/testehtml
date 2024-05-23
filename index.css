@@ -2,19 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Cathylise Janetson";
 }
 @font-face {
-    font-family: [Adelia];
-    src: url(./adelia.ttf);
+    font-family: "Cathylise Janetson";
+    src: local(Cathylise) url(./Cathylise\ Janetson.otf);
 }
 h1{
-    font-family: Adelia;
-    color: black;
-    font:60px;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black; 
+    text-align: left;
+    font-size: 20px;
+
 }
 
-p{
-    font-family: Adelia ;
+p{  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    span {font-size: 6em};
     color: black;
-    font: 60px; 
+    text-align: justify;
+    font-size: 12px ;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+    word-spacing: 4px;
 }
