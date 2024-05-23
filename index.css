@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: [Adelia];
+    src: url(./adelia.ttf);
+}
+h1{
+    font-family: Adelia;
+    color: black;
+    font:60px;    
+}
+
+p{
+    font-family: Adelia ;
+    color: black;
+    font: 60px; 
+}
