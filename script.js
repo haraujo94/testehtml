@@ -20,8 +20,7 @@ function nextSlider(){
     if(currentSlide = slider.length -1) {
 
         currentSlide = 0
-    } 
-    else{
+    } else{
         currentSlide++
 
     }
@@ -34,8 +33,7 @@ function prevSlider(){
     if(currentSlide = 0) {
 
         currentSlide = slider.length -1
-    } 
-    else{
+    } else{
         currentSlide--
     }
     showSlider()
