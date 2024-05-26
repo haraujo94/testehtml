@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=WindSong:wght@400;500&display=swap');
+
+.italianno-regular {
+    font-family: "Italianno", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -5,14 +16,9 @@ body{
     font-family:'Cathylise Janetson';
     text-align:left;
     font-size: 16px;
-    background-color: antiquewhite;
+    background-color: rgb(245, 237, 228);
 }
-@font-face {
-    font-family: "adelia";
-    src: url(./adelia.ttf);
-    font-family: "Cathylise Janetson";
-    src: url(./Cathylise\ Janetson.otf)
-}
+    
 h1{
     font-family: 'adelia';
     color: black; 
@@ -32,50 +38,25 @@ p{
     word-spacing: 2px;
 }
 
-.container-slider{
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.container-images{
+.carousel {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 700px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
 }
 
-.slider{
-    opacity: 0;
-    transition: opacity .2s;
+.carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
     position: absolute;
-    width: 100%;
-    border-radius: 10px;
-    
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
 }
 
-.on{
+.carousel img.active {
     opacity: 1;
-}
-
-#prev-button, #next-button{
-    width: 30px;
-    height: 30px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-#prev-button img , #next-button img{
-    width: 100%;
-    height: 100%;
-
-}
-
-#prev-button{
-    transform: rotate(180deg);
 }
