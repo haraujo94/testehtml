@@ -6,40 +6,61 @@
     font-style: normal;
     color: black;
 }
+body, html{
 
-body{
+    height: 100%;
+    margin: 0;
     background-color: rgb(245, 237, 228);
 }
+nav{
+    text-align: right;
+}
+a{
+    text-decoration: none;
     
-
+}
+figure {
+    width: left;
+    
+}
 h1{
-    color: black; 
-    text-align: left;
-    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    font-size: 70px;
+    margin-left: 3;
+    margin-right: auto;
+    font-weight: 700;
 
 }
 
 p{
-    span {font-size: 6em};
+    span {font-size: 3em};
     color: black;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
     text-align: center;
-    font-size: 22px ;
-    line-height: 1.6em;
-    letter-spacing: 2px;
-    word-spacing: 4px;
+    
+}
+p{
+    margin-top: 0px;
+    line-height: 25px;
+    font-size: 26px;
+    
 }
 
 .carousel {
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 500px;
     margin: auto;
     overflow: hidden;
 }
 
 .carousel img {
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height:500px;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -49,5 +70,5 @@ p{
 }
 
 .carousel img.active {
-    opacity: 1;
+    opacity: 0.5;
 }
