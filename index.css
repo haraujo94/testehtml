@@ -6,31 +6,42 @@
     font-style: normal;
     color: black;
 }
-body, html{
+body{
 
-    height: 100%;
-    margin: 0;
+   
+    box-sizing: border-box;
     background-color: rgb(245, 237, 228);
+    
 }
+
 nav{
     text-align: right;
+    position: right;
+    top: 0px;
+    left: 0px;
 }
+
 a{
-    text-decoration: none;
     
+    text-decoration: none; 
+    position: right;   
 }
-figure {
-    width: left;
-    
+div#logo img {
+    position: right;
+    max-width:  150px;
+    top: 0px;
+    left: 0px;
+   
 }
 h1{
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 1%;
-    font-size: 70px;
-    margin-left: 3;
+    font-size: 50px;
+    margin-left: 10px;
     margin-right: auto;
     font-weight: 700;
+    
 
 }
 
@@ -44,9 +55,9 @@ p{
     
 }
 p{
-    margin-top: 0px;
+    margin-top: 5px;
     line-height: 25px;
-    font-size: 26px;
+    font-size: 24px;
     
 }
 
@@ -71,4 +82,9 @@ p{
 
 .carousel img.active {
     opacity: 0.5;
+}
+
+footer(p2){
+    text-align: left;
+    font-size: 26px;
 }
