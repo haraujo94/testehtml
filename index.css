@@ -6,10 +6,9 @@
     font-style: normal;
     color: black;
 }
-body{
+body, html{
 
    
-    box-sizing: border-box;
     background-color: rgb(245, 237, 228);
     
 }
@@ -35,9 +34,9 @@ div#logo img {
 }
 h1{
     color: black;
-    text-align: left;
-    padding: 1%;
-    font-size: 50px;
+    text-align: center;
+    padding: 0%;
+    font-size: 150px;
     margin-left: 10px;
     margin-right: auto;
     font-weight: 700;
@@ -50,13 +49,13 @@ p{
     color: black;
     font-weight: 300;
     letter-spacing: 1px;
-    word-spacing: 3px;
+    word-spacing: 1px;
     text-align: center;
     
 }
 p{
     margin-top: 5px;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 24px;
     
 }
@@ -82,6 +81,7 @@ p{
 
 .carousel img.active {
     opacity: 0.5;
+    background-color: rgb(245, 237, 228);
 }
 
 footer(p2){
