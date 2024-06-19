@@ -60,6 +60,10 @@ p{
     
 }
 
+div#carousel-active{
+    background-color: rgb(245, 237, 228);
+}
+
 .carousel {
     position: relative;
     width: 100%;
