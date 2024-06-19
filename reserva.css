@@ -22,7 +22,7 @@ header a {
   margin-right: 10px;
 }
 
-#Corpo {
+.Corpo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ header a {
 form {
   background-color: white;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
